@@ -61,10 +61,15 @@ const generateDarkModeToggle = () => `
 </button>
 `;
 
+const generateGithubLink = () => `
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github-link">
+<i class="fab fa-github"></i>
+</a>
+`;
 
 const generateCardHeader = () => `
   <div class="card-header text-center">
-    <h1 class="display-4 mb-0">Sub-URL</h1>
+    <h1 class="display-4 mb-0">Sublink Worker 汉化版</h1>
   </div>
 `;
 
@@ -91,7 +96,7 @@ const generateForm = () => `
           <span class="tooltip-icon ms-2">
             <i class="fas fa-question-circle"></i>
             <span class="tooltip-content">
-              此功能是实验性的，可能无法按预期工作。您可以在此处粘贴自己的基本配置。转到 <a href="https://github.com/yun8862779/sublink-worker/blob/main/docs/base-config.md" target="_blank">文档</a> 了解更多信息。
+              此功能是实验性的，可能无法按预期工作。您可以在此处粘贴自己的基本配置。转到 <a href="https://github.com/yixiu001/sublink-worker/blob/main/docs/base-config.md" target="_blank">文档</a> 了解更多信息。
             </span>
           </span>
         </div>
